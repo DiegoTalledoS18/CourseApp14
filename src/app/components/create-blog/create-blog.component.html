@@ -1,4 +1,4 @@
-<div >
+<!--div >
   <h1>TinyMCE 6 Angular Demo</h1>
   <editor apiKey="1fim4fyjmf781d18xyj35334v9bhtk8s6j25sy0y4cis2tw2"
           [init]="{ plugins: 'lists link image table code help wordcount' }" [(ngModel)]="htmlContent"
@@ -11,5 +11,9 @@
     <source [src]="firebaseVideoUrl" type="video/mp4">
     Tu navegador no soporta el elemento de video.
   </video>
+</div-->
+<div>
+  <input type="file" (change)="onFileSelected($event)">
+  <button (click)="uploadVideo()">Subir Video</button>
 </div>
 

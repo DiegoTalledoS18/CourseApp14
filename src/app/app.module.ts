@@ -32,6 +32,11 @@ import { SubscriptionComponent } from './components/subscription/subscription.co
 import { CredentialsComponent } from './components/credentials/credentials.component';
 import { SupportComponent } from './components/support/support.component';
 import { CreateBlogComponent } from './components/create-blog/create-blog.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
+import {AngularFireModule} from "@angular/fire/compat";
+import {AngularFirestoreModule} from "@angular/fire/compat/firestore";
 
 
 @NgModule({
@@ -53,7 +58,7 @@ import { CreateBlogComponent } from './components/create-blog/create-blog.compon
     SubscriptionComponent,
     CredentialsComponent,
     SupportComponent,
-    CreateBlogComponent
+    CreateBlogComponent,
   ],
     imports: [
         BrowserModule,
@@ -90,7 +95,11 @@ import { CreateBlogComponent } from './components/create-blog/create-blog.compon
         FormsModule,
         MatMenuModule,
         MatDividerModule,
-        MatProgressSpinnerModule
+        MatProgressSpinnerModule,
+        AngularFireModule.initializeApp(environment.firebase),
+        AngularFirestoreModule,
+        provideFirebaseApp(() => initializeApp(environment.firebase)),
+        provideStorage(() => getStorage())
     ],
   providers: [],
   bootstrap: [AppComponent]

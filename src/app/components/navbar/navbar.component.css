@@ -31,7 +31,7 @@
   font-size: 13px;
 }
 .profile-item :hover{
-  color: #2a94fd;
+  color: gold;
 }
 .profile-menu-container {
   position: relative;
@@ -50,7 +50,7 @@
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #1b3d6f;
+  background-color: #ae143b;
   padding: 10px;
   min-width: 158px;
   z-index: 1000;
@@ -81,8 +81,8 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: #1cd9ca;
-  color: white;
+  background-color: gold;
+  color: #961032;
   border-radius: 2rem;
   padding: 8px ;
 }
@@ -123,10 +123,10 @@ width: 280px;
   cursor: pointer;
   color: white;
   padding: 5px 10px;
-  background: #011f42;
+  background: #811726;
   border-radius: 30px;
   align-items: center;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 .box:hover input{
   width: 200px;
@@ -141,7 +141,7 @@ width: 280px;
   background: transparent;
 }
 .box button{
-  color: #1f82e6;
+  color: white;
   font-size: 18px;
 }
 .top-menu-shortcut{
@@ -156,18 +156,18 @@ width: 280px;
 }
 
 .top-menu-shortcut a:hover{
-  color: #2a94fd !important;
+  color: gold !important;
 }
 .mat-toolbar{
   height: 64px;
-  background-color: #011125;
+  background-color: #981332;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .mat-sidenav{
-  background-color: #1d2f4c;
+  background-color: #c02045;
 }
 .top-menu-items{
   display: flex;
@@ -176,7 +176,7 @@ width: 280px;
   margin: 15px 0 15px 15px;
 }
 .top-menu-items :hover{
-  border-bottom: 4px solid #2a94fd !important;
+  border-bottom: 4px solid gold !important;
 }
 
 .side-profile-items{
@@ -211,7 +211,7 @@ width: 280px;
 }
 
 .side-profile-avatar:hover {
-  background-color: rgba(42, 148, 253, 0.91);
+  background-color: rgba(148, 24, 24, 0.91);
 }
 
 .side-hello{
@@ -227,8 +227,8 @@ width: 280px;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: #1cd9ca !important;
-  color: white;
+  background-color: gold !important;
+  color: #961032;
   border-radius: 5rem;
   padding: 8px ;
 }
@@ -253,14 +253,15 @@ width: 280px;
 }
 
 .side-menu-items :hover{
-  background-color: #23395d !important;
+  background-color: #9b1a2d !important;
+  border-right: 5px solid #9b1a2d !important;
 }
 .side-active{
-  border-right: 5px solid #2a94fd !important;
-  background-color: #23395d !important;
+  border-right: 5px solid gold !important;
+  background-color: #9b1a2d !important;
 }
 .top-active{
-  border-bottom: 4px solid #2a94fd !important;
+  border-bottom: 4px solid gold !important;
 }
 
 @media (min-width: 990px) {
