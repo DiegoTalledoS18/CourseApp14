@@ -1,6 +1,6 @@
 :host {
   display: block; /* Asegura que el estilo se aplique al componente en lugar de a un elemento hijo */
-  background-color: #011125;
+  background-color: #0f0f0f;
   height: 100%;
 }
 
@@ -11,7 +11,7 @@
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #011125;
+  background-color: #0f0f0f;
 }
 
 .content {
@@ -43,6 +43,6 @@
   margin-top: 4px;
 }
 .top-active{
-  background-color: #2a94fd !important;
+  background-color: #272727 !important;
   border: rgba(255, 255, 255, 0.11) 1px solid;
 }

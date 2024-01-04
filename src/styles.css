@@ -3,6 +3,6 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-progress-spinner circle, .mat-spinner circle {
-  stroke: #2A79FF !important;
+  stroke: #676767 !important;
   border-color: white !important;
 }

@@ -27,11 +27,11 @@
   align-content: center;
   align-items: center;
   height: 40px;
-  color: white;
+  color: #d5d5d5;
   font-size: 13px;
 }
 .profile-item :hover{
-  color: gold;
+  color: white;
 }
 .profile-menu-container {
   position: relative;
@@ -50,7 +50,7 @@
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #ae143b;
+  background-color: #282828;
   padding: 10px;
   min-width: 158px;
   z-index: 1000;
@@ -81,8 +81,8 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: gold;
-  color: #961032;
+  background-color: #bf360c;
+  color: white;
   border-radius: 2rem;
   padding: 8px ;
 }
@@ -123,10 +123,10 @@ width: 280px;
   cursor: pointer;
   color: white;
   padding: 5px 10px;
-  background: #811726;
+  background: #222222;
   border-radius: 30px;
   align-items: center;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 .box:hover input{
   width: 200px;
@@ -147,27 +147,29 @@ width: 280px;
 .top-menu-shortcut{
   display: flex;
   flex-direction: row;
+  color: #8e8e8e;
 }
 
 .top-menu-shortcut a{
-  color: white !important;
+  color: #bdbdbd !important;
   margin: 15px 0px 15px 0px;
   padding: 0 ;
+
 }
 
 .top-menu-shortcut a:hover{
-  color: gold !important;
+  color: white !important;
 }
 .mat-toolbar{
   height: 64px;
-  background-color: #981332;
+  background-color: #0f0f0f;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .mat-sidenav{
-  background-color: #c02045;
+  background-color: #0f0f0f;
 }
 .top-menu-items{
   display: flex;
@@ -176,12 +178,13 @@ width: 280px;
   margin: 15px 0 15px 15px;
 }
 .top-menu-items :hover{
-  border-bottom: 4px solid gold !important;
+  border-bottom: 4px solid #da0101 !important;
 }
 
 .side-profile-items{
   margin-top: 0.5rem;
   padding: 0;
+
 }
 .premium{
   margin-left: 0
@@ -211,7 +214,7 @@ width: 280px;
 }
 
 .side-profile-avatar:hover {
-  background-color: rgba(148, 24, 24, 0.91);
+  background-color: #272727;
 }
 
 .side-hello{
@@ -227,8 +230,8 @@ width: 280px;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: gold !important;
-  color: #961032;
+  background-color: #bf360c !important;
+  color: white;
   border-radius: 5rem;
   padding: 8px ;
 }
@@ -253,15 +256,15 @@ width: 280px;
 }
 
 .side-menu-items :hover{
-  background-color: #9b1a2d !important;
-  border-right: 5px solid #9b1a2d !important;
+  background-color: #272727 !important;
+  border-right: 5px solid #272727 !important;
 }
 .side-active{
-  border-right: 5px solid gold !important;
-  background-color: #9b1a2d !important;
+  border-right: 5px solid #da0101 !important;
+  background-color: #0f0f0f !important;
 }
 .top-active{
-  border-bottom: 4px solid gold !important;
+  border-bottom: 4px solid #da0101 !important;
 }
 
 @media (min-width: 990px) {

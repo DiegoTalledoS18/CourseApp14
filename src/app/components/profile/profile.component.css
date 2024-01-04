@@ -1,6 +1,6 @@
 .banner{
   min-width: 704px;
-  background-color: #0a223e;
+  background-color: #272727;
   border-radius: 1rem;
   margin-top: 2rem;
 }
@@ -43,7 +43,7 @@ img {
   align-content: center;
   color: white;
   border-radius: 2rem;
-  background-color: #2a94fd;
+  background-color: #0f0f0f;
   border: white solid 1.5px
 }
 .downer-part{
